@@ -1,19 +1,21 @@
-import { VARIANT_COLORS } from "../../config/variantColors";
+import { COLORS } from "../../config/colors";
 import { tw } from "../../utils/tailwind";
 import { IBadge } from "./interface";
 import { twMerge } from "tailwind-merge";
 
 const Badge = ({
   className = "",
-  variant = "subtle",
-  colorScheme = "gray",
+  variant,
+  colorScheme,
   children,
   ...props
 }: IBadge) => {
   return (
     <span
       className={twMerge(
-        `rounded-sm border-1 border-transparent px-2 py-0.5 text-xs font-bold uppercase ${getVariantCss(colorScheme, variant)} ${className}`,
+        "rounded-sm border-1 border-transparent px-2 py-0.5 text-xs font-bold uppercase",
+        getVariantCss(colorScheme, variant),
+        className,
       )}
       {...props}
     >
@@ -24,24 +26,25 @@ const Badge = ({
 export default Badge;
 
 const getVariantCss = (
-  colorScheme: string,
-  variant: "outline" | "solid" | "subtle",
+  colorScheme: string = "teal",
+  variant: IBadge["variant"] = "subtle",
 ) => {
-  const selectedColor =
-    VARIANT_COLORS[colorScheme as keyof typeof VARIANT_COLORS];
+  const selectedColor = COLORS[colorScheme as keyof typeof COLORS];
   if (!selectedColor) return "";
 
   switch (variant) {
     case "outline":
-      return tw`${selectedColor.outline.borderColor} ${selectedColor.outline.color}`;
+      return tw`${selectedColor?.[500]?.borderColor} ${selectedColor?.[500]?.text}`;
 
     case "solid":
-      return tw`${selectedColor.solid.bgColor} ${selectedColor.solid.color}`;
+      return tw`${selectedColor?.[700]?.bgColor} text-white`;
 
     case "subtle":
-      return tw`${selectedColor.subtle.bgColor} ${selectedColor.subtle.color}`;
+      return tw`${selectedColor?.[200]?.bgColor} ${selectedColor?.[800]?.text}`;
 
-    default:
-      return "";
+    default: {
+      const _exhaustiveCheck: never = variant;
+      return _exhaustiveCheck;
+    }
   }
 };

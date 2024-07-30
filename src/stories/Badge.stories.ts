@@ -24,7 +24,7 @@ type Story = StoryObj<typeof meta>;
 export const Subtle: Story = {
   args: {
     variant: "subtle",
-    children: "Subtle",
+    children: "Badge",
     colorScheme: "green",
   },
 };
@@ -32,7 +32,7 @@ export const Subtle: Story = {
 export const Solid: Story = {
   args: {
     variant: "solid",
-    children: "Solid",
+    children: "Badge",
     colorScheme: "green",
   },
 };
@@ -40,7 +40,7 @@ export const Solid: Story = {
 export const Outline: Story = {
   args: {
     variant: "outline",
-    children: "Outline",
+    children: "Badge",
     colorScheme: "green",
   },
 };
