@@ -23,7 +23,7 @@ const Badge = ({
     </span>
   );
 };
-export default Badge;
+export { Badge };
 
 const getVariantCss = (
   colorScheme: string = "teal",

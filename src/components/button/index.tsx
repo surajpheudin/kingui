@@ -2,6 +2,7 @@ import { twMerge } from "tailwind-merge";
 import { IButton } from "./interface";
 import { tw } from "../../utils/tailwind";
 import { COLORS } from "../../config/colors";
+import { DefaultColors } from "tailwindcss/types/generated/colors";
 
 const Button = ({
   className,
@@ -11,16 +12,14 @@ const Button = ({
   size,
   ...props
 }: IButton) => {
+  const classes = twMerge(
+    "rounded-md px-4 font-semibold",
+    getVariantCss(colorScheme, variant),
+    getSizeCss(size),
+    className,
+  );
   return (
-    <button
-      className={twMerge(
-        "rounded-md px-4 font-semibold",
-        getVariantCss(colorScheme, variant),
-        getSizeCss(size),
-        className,
-      )}
-      {...props}
-    >
+    <button className={classes} {...props}>
       {children}
     </button>
   );
@@ -29,7 +28,7 @@ const Button = ({
 export { Button };
 
 function getVariantCss(
-  colorScheme: string = "teal",
+  colorScheme: keyof DefaultColors = "teal",
   variant: IButton["variant"] = "solid",
 ) {
   const selectedColor = COLORS[colorScheme as keyof typeof COLORS];
