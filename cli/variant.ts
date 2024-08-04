@@ -41,6 +41,9 @@ function calc(curr: string) {
         bgColor: `hover:bg-${curr}-${c}`,
         borderColor: `border-${curr}-${c}`,
       },
+      _focus: {
+        borderColor: `focus:border-${curr}-${c}`,
+      },
     };
     return a;
   }, {});
@@ -61,6 +64,9 @@ type VariantColor = {
         text: `text-${string}-${string}`;
         bgColor: `bg-${string}-${string}`;
         borderColor: `border-${string}-${string}`;
+      };
+      _focus: {
+        borderColor: `focus:border-${string}-${string}`;
       };
     };
   };
