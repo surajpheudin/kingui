@@ -11,6 +11,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-slate-50"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-slate-50"
       }
     },
     "100": {
@@ -24,6 +27,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-slate-100"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-slate-100"
       }
     },
     "200": {
@@ -37,6 +43,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-slate-200"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-slate-200"
       }
     },
     "300": {
@@ -50,6 +59,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-slate-300"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-slate-300"
       }
     },
     "400": {
@@ -63,6 +75,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-slate-400"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-slate-400"
       }
     },
     "500": {
@@ -76,6 +91,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-slate-500"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-slate-500"
       }
     },
     "600": {
@@ -89,6 +107,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-slate-600"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-slate-600"
       }
     },
     "700": {
@@ -102,6 +123,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-slate-700"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-slate-700"
       }
     },
     "800": {
@@ -115,6 +139,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-slate-800"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-slate-800"
       }
     },
     "900": {
@@ -128,6 +155,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-slate-900"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-slate-900"
       }
     },
     "950": {
@@ -141,6 +171,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-slate-950"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-slate-950"
       }
     }
   },
@@ -156,6 +189,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-gray-50"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-gray-50"
       }
     },
     "100": {
@@ -169,6 +205,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-gray-100"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-gray-100"
       }
     },
     "200": {
@@ -182,6 +221,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-gray-200"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-gray-200"
       }
     },
     "300": {
@@ -195,6 +237,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-gray-300"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-gray-300"
       }
     },
     "400": {
@@ -208,6 +253,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-gray-400"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-gray-400"
       }
     },
     "500": {
@@ -221,6 +269,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-gray-500"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-gray-500"
       }
     },
     "600": {
@@ -234,6 +285,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-gray-600"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-gray-600"
       }
     },
     "700": {
@@ -247,6 +301,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-gray-700"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-gray-700"
       }
     },
     "800": {
@@ -260,6 +317,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-gray-800"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-gray-800"
       }
     },
     "900": {
@@ -273,6 +333,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-gray-900"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-gray-900"
       }
     },
     "950": {
@@ -286,6 +349,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-gray-950"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-gray-950"
       }
     }
   },
@@ -301,6 +367,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-zinc-50"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-zinc-50"
       }
     },
     "100": {
@@ -314,6 +383,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-zinc-100"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-zinc-100"
       }
     },
     "200": {
@@ -327,6 +399,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-zinc-200"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-zinc-200"
       }
     },
     "300": {
@@ -340,6 +415,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-zinc-300"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-zinc-300"
       }
     },
     "400": {
@@ -353,6 +431,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-zinc-400"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-zinc-400"
       }
     },
     "500": {
@@ -366,6 +447,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-zinc-500"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-zinc-500"
       }
     },
     "600": {
@@ -379,6 +463,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-zinc-600"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-zinc-600"
       }
     },
     "700": {
@@ -392,6 +479,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-zinc-700"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-zinc-700"
       }
     },
     "800": {
@@ -405,6 +495,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-zinc-800"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-zinc-800"
       }
     },
     "900": {
@@ -418,6 +511,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-zinc-900"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-zinc-900"
       }
     },
     "950": {
@@ -431,6 +527,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-zinc-950"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-zinc-950"
       }
     }
   },
@@ -446,6 +545,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-neutral-50"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-neutral-50"
       }
     },
     "100": {
@@ -459,6 +561,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-neutral-100"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-neutral-100"
       }
     },
     "200": {
@@ -472,6 +577,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-neutral-200"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-neutral-200"
       }
     },
     "300": {
@@ -485,6 +593,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-neutral-300"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-neutral-300"
       }
     },
     "400": {
@@ -498,6 +609,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-neutral-400"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-neutral-400"
       }
     },
     "500": {
@@ -511,6 +625,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-neutral-500"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-neutral-500"
       }
     },
     "600": {
@@ -524,6 +641,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-neutral-600"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-neutral-600"
       }
     },
     "700": {
@@ -537,6 +657,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-neutral-700"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-neutral-700"
       }
     },
     "800": {
@@ -550,6 +673,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-neutral-800"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-neutral-800"
       }
     },
     "900": {
@@ -563,6 +689,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-neutral-900"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-neutral-900"
       }
     },
     "950": {
@@ -576,6 +705,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-neutral-950"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-neutral-950"
       }
     }
   },
@@ -591,6 +723,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-stone-50"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-stone-50"
       }
     },
     "100": {
@@ -604,6 +739,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-stone-100"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-stone-100"
       }
     },
     "200": {
@@ -617,6 +755,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-stone-200"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-stone-200"
       }
     },
     "300": {
@@ -630,6 +771,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-stone-300"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-stone-300"
       }
     },
     "400": {
@@ -643,6 +787,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-stone-400"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-stone-400"
       }
     },
     "500": {
@@ -656,6 +803,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-stone-500"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-stone-500"
       }
     },
     "600": {
@@ -669,6 +819,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-stone-600"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-stone-600"
       }
     },
     "700": {
@@ -682,6 +835,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-stone-700"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-stone-700"
       }
     },
     "800": {
@@ -695,6 +851,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-stone-800"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-stone-800"
       }
     },
     "900": {
@@ -708,6 +867,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-stone-900"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-stone-900"
       }
     },
     "950": {
@@ -721,6 +883,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-stone-950"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-stone-950"
       }
     }
   },
@@ -736,6 +901,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-red-50"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-red-50"
       }
     },
     "100": {
@@ -749,6 +917,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-red-100"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-red-100"
       }
     },
     "200": {
@@ -762,6 +933,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-red-200"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-red-200"
       }
     },
     "300": {
@@ -775,6 +949,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-red-300"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-red-300"
       }
     },
     "400": {
@@ -788,6 +965,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-red-400"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-red-400"
       }
     },
     "500": {
@@ -801,6 +981,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-red-500"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-red-500"
       }
     },
     "600": {
@@ -814,6 +997,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-red-600"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-red-600"
       }
     },
     "700": {
@@ -827,6 +1013,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-red-700"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-red-700"
       }
     },
     "800": {
@@ -840,6 +1029,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-red-800"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-red-800"
       }
     },
     "900": {
@@ -853,6 +1045,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-red-900"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-red-900"
       }
     },
     "950": {
@@ -866,6 +1061,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-red-950"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-red-950"
       }
     }
   },
@@ -881,6 +1079,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-orange-50"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-orange-50"
       }
     },
     "100": {
@@ -894,6 +1095,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-orange-100"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-orange-100"
       }
     },
     "200": {
@@ -907,6 +1111,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-orange-200"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-orange-200"
       }
     },
     "300": {
@@ -920,6 +1127,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-orange-300"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-orange-300"
       }
     },
     "400": {
@@ -933,6 +1143,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-orange-400"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-orange-400"
       }
     },
     "500": {
@@ -946,6 +1159,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-orange-500"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-orange-500"
       }
     },
     "600": {
@@ -959,6 +1175,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-orange-600"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-orange-600"
       }
     },
     "700": {
@@ -972,6 +1191,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-orange-700"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-orange-700"
       }
     },
     "800": {
@@ -985,6 +1207,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-orange-800"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-orange-800"
       }
     },
     "900": {
@@ -998,6 +1223,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-orange-900"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-orange-900"
       }
     },
     "950": {
@@ -1011,6 +1239,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-orange-950"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-orange-950"
       }
     }
   },
@@ -1026,6 +1257,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-amber-50"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-amber-50"
       }
     },
     "100": {
@@ -1039,6 +1273,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-amber-100"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-amber-100"
       }
     },
     "200": {
@@ -1052,6 +1289,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-amber-200"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-amber-200"
       }
     },
     "300": {
@@ -1065,6 +1305,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-amber-300"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-amber-300"
       }
     },
     "400": {
@@ -1078,6 +1321,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-amber-400"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-amber-400"
       }
     },
     "500": {
@@ -1091,6 +1337,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-amber-500"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-amber-500"
       }
     },
     "600": {
@@ -1104,6 +1353,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-amber-600"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-amber-600"
       }
     },
     "700": {
@@ -1117,6 +1369,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-amber-700"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-amber-700"
       }
     },
     "800": {
@@ -1130,6 +1385,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-amber-800"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-amber-800"
       }
     },
     "900": {
@@ -1143,6 +1401,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-amber-900"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-amber-900"
       }
     },
     "950": {
@@ -1156,6 +1417,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-amber-950"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-amber-950"
       }
     }
   },
@@ -1171,6 +1435,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-yellow-50"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-yellow-50"
       }
     },
     "100": {
@@ -1184,6 +1451,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-yellow-100"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-yellow-100"
       }
     },
     "200": {
@@ -1197,6 +1467,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-yellow-200"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-yellow-200"
       }
     },
     "300": {
@@ -1210,6 +1483,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-yellow-300"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-yellow-300"
       }
     },
     "400": {
@@ -1223,6 +1499,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-yellow-400"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-yellow-400"
       }
     },
     "500": {
@@ -1236,6 +1515,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-yellow-500"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-yellow-500"
       }
     },
     "600": {
@@ -1249,6 +1531,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-yellow-600"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-yellow-600"
       }
     },
     "700": {
@@ -1262,6 +1547,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-yellow-700"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-yellow-700"
       }
     },
     "800": {
@@ -1275,6 +1563,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-yellow-800"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-yellow-800"
       }
     },
     "900": {
@@ -1288,6 +1579,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-yellow-900"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-yellow-900"
       }
     },
     "950": {
@@ -1301,6 +1595,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-yellow-950"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-yellow-950"
       }
     }
   },
@@ -1316,6 +1613,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-lime-50"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-lime-50"
       }
     },
     "100": {
@@ -1329,6 +1629,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-lime-100"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-lime-100"
       }
     },
     "200": {
@@ -1342,6 +1645,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-lime-200"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-lime-200"
       }
     },
     "300": {
@@ -1355,6 +1661,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-lime-300"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-lime-300"
       }
     },
     "400": {
@@ -1368,6 +1677,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-lime-400"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-lime-400"
       }
     },
     "500": {
@@ -1381,6 +1693,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-lime-500"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-lime-500"
       }
     },
     "600": {
@@ -1394,6 +1709,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-lime-600"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-lime-600"
       }
     },
     "700": {
@@ -1407,6 +1725,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-lime-700"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-lime-700"
       }
     },
     "800": {
@@ -1420,6 +1741,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-lime-800"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-lime-800"
       }
     },
     "900": {
@@ -1433,6 +1757,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-lime-900"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-lime-900"
       }
     },
     "950": {
@@ -1446,6 +1773,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-lime-950"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-lime-950"
       }
     }
   },
@@ -1461,6 +1791,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-green-50"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-green-50"
       }
     },
     "100": {
@@ -1474,6 +1807,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-green-100"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-green-100"
       }
     },
     "200": {
@@ -1487,6 +1823,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-green-200"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-green-200"
       }
     },
     "300": {
@@ -1500,6 +1839,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-green-300"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-green-300"
       }
     },
     "400": {
@@ -1513,6 +1855,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-green-400"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-green-400"
       }
     },
     "500": {
@@ -1526,6 +1871,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-green-500"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-green-500"
       }
     },
     "600": {
@@ -1539,6 +1887,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-green-600"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-green-600"
       }
     },
     "700": {
@@ -1552,6 +1903,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-green-700"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-green-700"
       }
     },
     "800": {
@@ -1565,6 +1919,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-green-800"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-green-800"
       }
     },
     "900": {
@@ -1578,6 +1935,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-green-900"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-green-900"
       }
     },
     "950": {
@@ -1591,6 +1951,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-green-950"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-green-950"
       }
     }
   },
@@ -1606,6 +1969,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-emerald-50"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-emerald-50"
       }
     },
     "100": {
@@ -1619,6 +1985,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-emerald-100"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-emerald-100"
       }
     },
     "200": {
@@ -1632,6 +2001,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-emerald-200"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-emerald-200"
       }
     },
     "300": {
@@ -1645,6 +2017,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-emerald-300"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-emerald-300"
       }
     },
     "400": {
@@ -1658,6 +2033,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-emerald-400"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-emerald-400"
       }
     },
     "500": {
@@ -1671,6 +2049,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-emerald-500"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-emerald-500"
       }
     },
     "600": {
@@ -1684,6 +2065,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-emerald-600"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-emerald-600"
       }
     },
     "700": {
@@ -1697,6 +2081,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-emerald-700"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-emerald-700"
       }
     },
     "800": {
@@ -1710,6 +2097,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-emerald-800"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-emerald-800"
       }
     },
     "900": {
@@ -1723,6 +2113,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-emerald-900"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-emerald-900"
       }
     },
     "950": {
@@ -1736,6 +2129,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-emerald-950"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-emerald-950"
       }
     }
   },
@@ -1751,6 +2147,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-teal-50"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-teal-50"
       }
     },
     "100": {
@@ -1764,6 +2163,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-teal-100"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-teal-100"
       }
     },
     "200": {
@@ -1777,6 +2179,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-teal-200"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-teal-200"
       }
     },
     "300": {
@@ -1790,6 +2195,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-teal-300"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-teal-300"
       }
     },
     "400": {
@@ -1803,6 +2211,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-teal-400"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-teal-400"
       }
     },
     "500": {
@@ -1816,6 +2227,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-teal-500"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-teal-500"
       }
     },
     "600": {
@@ -1829,6 +2243,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-teal-600"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-teal-600"
       }
     },
     "700": {
@@ -1842,6 +2259,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-teal-700"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-teal-700"
       }
     },
     "800": {
@@ -1855,6 +2275,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-teal-800"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-teal-800"
       }
     },
     "900": {
@@ -1868,6 +2291,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-teal-900"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-teal-900"
       }
     },
     "950": {
@@ -1881,6 +2307,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-teal-950"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-teal-950"
       }
     }
   },
@@ -1896,6 +2325,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-cyan-50"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-cyan-50"
       }
     },
     "100": {
@@ -1909,6 +2341,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-cyan-100"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-cyan-100"
       }
     },
     "200": {
@@ -1922,6 +2357,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-cyan-200"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-cyan-200"
       }
     },
     "300": {
@@ -1935,6 +2373,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-cyan-300"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-cyan-300"
       }
     },
     "400": {
@@ -1948,6 +2389,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-cyan-400"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-cyan-400"
       }
     },
     "500": {
@@ -1961,6 +2405,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-cyan-500"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-cyan-500"
       }
     },
     "600": {
@@ -1974,6 +2421,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-cyan-600"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-cyan-600"
       }
     },
     "700": {
@@ -1987,6 +2437,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-cyan-700"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-cyan-700"
       }
     },
     "800": {
@@ -2000,6 +2453,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-cyan-800"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-cyan-800"
       }
     },
     "900": {
@@ -2013,6 +2469,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-cyan-900"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-cyan-900"
       }
     },
     "950": {
@@ -2026,6 +2485,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-cyan-950"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-cyan-950"
       }
     }
   },
@@ -2041,6 +2503,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-sky-50"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-sky-50"
       }
     },
     "100": {
@@ -2054,6 +2519,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-sky-100"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-sky-100"
       }
     },
     "200": {
@@ -2067,6 +2535,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-sky-200"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-sky-200"
       }
     },
     "300": {
@@ -2080,6 +2551,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-sky-300"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-sky-300"
       }
     },
     "400": {
@@ -2093,6 +2567,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-sky-400"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-sky-400"
       }
     },
     "500": {
@@ -2106,6 +2583,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-sky-500"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-sky-500"
       }
     },
     "600": {
@@ -2119,6 +2599,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-sky-600"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-sky-600"
       }
     },
     "700": {
@@ -2132,6 +2615,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-sky-700"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-sky-700"
       }
     },
     "800": {
@@ -2145,6 +2631,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-sky-800"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-sky-800"
       }
     },
     "900": {
@@ -2158,6 +2647,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-sky-900"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-sky-900"
       }
     },
     "950": {
@@ -2171,6 +2663,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-sky-950"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-sky-950"
       }
     }
   },
@@ -2186,6 +2681,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-blue-50"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-blue-50"
       }
     },
     "100": {
@@ -2199,6 +2697,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-blue-100"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-blue-100"
       }
     },
     "200": {
@@ -2212,6 +2713,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-blue-200"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-blue-200"
       }
     },
     "300": {
@@ -2225,6 +2729,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-blue-300"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-blue-300"
       }
     },
     "400": {
@@ -2238,6 +2745,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-blue-400"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-blue-400"
       }
     },
     "500": {
@@ -2251,6 +2761,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-blue-500"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-blue-500"
       }
     },
     "600": {
@@ -2264,6 +2777,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-blue-600"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-blue-600"
       }
     },
     "700": {
@@ -2277,6 +2793,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-blue-700"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-blue-700"
       }
     },
     "800": {
@@ -2290,6 +2809,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-blue-800"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-blue-800"
       }
     },
     "900": {
@@ -2303,6 +2825,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-blue-900"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-blue-900"
       }
     },
     "950": {
@@ -2316,6 +2841,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-blue-950"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-blue-950"
       }
     }
   },
@@ -2331,6 +2859,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-indigo-50"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-indigo-50"
       }
     },
     "100": {
@@ -2344,6 +2875,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-indigo-100"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-indigo-100"
       }
     },
     "200": {
@@ -2357,6 +2891,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-indigo-200"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-indigo-200"
       }
     },
     "300": {
@@ -2370,6 +2907,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-indigo-300"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-indigo-300"
       }
     },
     "400": {
@@ -2383,6 +2923,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-indigo-400"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-indigo-400"
       }
     },
     "500": {
@@ -2396,6 +2939,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-indigo-500"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-indigo-500"
       }
     },
     "600": {
@@ -2409,6 +2955,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-indigo-600"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-indigo-600"
       }
     },
     "700": {
@@ -2422,6 +2971,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-indigo-700"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-indigo-700"
       }
     },
     "800": {
@@ -2435,6 +2987,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-indigo-800"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-indigo-800"
       }
     },
     "900": {
@@ -2448,6 +3003,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-indigo-900"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-indigo-900"
       }
     },
     "950": {
@@ -2461,6 +3019,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-indigo-950"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-indigo-950"
       }
     }
   },
@@ -2476,6 +3037,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-violet-50"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-violet-50"
       }
     },
     "100": {
@@ -2489,6 +3053,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-violet-100"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-violet-100"
       }
     },
     "200": {
@@ -2502,6 +3069,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-violet-200"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-violet-200"
       }
     },
     "300": {
@@ -2515,6 +3085,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-violet-300"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-violet-300"
       }
     },
     "400": {
@@ -2528,6 +3101,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-violet-400"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-violet-400"
       }
     },
     "500": {
@@ -2541,6 +3117,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-violet-500"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-violet-500"
       }
     },
     "600": {
@@ -2554,6 +3133,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-violet-600"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-violet-600"
       }
     },
     "700": {
@@ -2567,6 +3149,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-violet-700"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-violet-700"
       }
     },
     "800": {
@@ -2580,6 +3165,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-violet-800"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-violet-800"
       }
     },
     "900": {
@@ -2593,6 +3181,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-violet-900"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-violet-900"
       }
     },
     "950": {
@@ -2606,6 +3197,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-violet-950"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-violet-950"
       }
     }
   },
@@ -2621,6 +3215,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-purple-50"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-purple-50"
       }
     },
     "100": {
@@ -2634,6 +3231,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-purple-100"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-purple-100"
       }
     },
     "200": {
@@ -2647,6 +3247,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-purple-200"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-purple-200"
       }
     },
     "300": {
@@ -2660,6 +3263,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-purple-300"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-purple-300"
       }
     },
     "400": {
@@ -2673,6 +3279,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-purple-400"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-purple-400"
       }
     },
     "500": {
@@ -2686,6 +3295,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-purple-500"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-purple-500"
       }
     },
     "600": {
@@ -2699,6 +3311,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-purple-600"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-purple-600"
       }
     },
     "700": {
@@ -2712,6 +3327,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-purple-700"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-purple-700"
       }
     },
     "800": {
@@ -2725,6 +3343,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-purple-800"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-purple-800"
       }
     },
     "900": {
@@ -2738,6 +3359,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-purple-900"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-purple-900"
       }
     },
     "950": {
@@ -2751,6 +3375,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-purple-950"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-purple-950"
       }
     }
   },
@@ -2766,6 +3393,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-fuchsia-50"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-fuchsia-50"
       }
     },
     "100": {
@@ -2779,6 +3409,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-fuchsia-100"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-fuchsia-100"
       }
     },
     "200": {
@@ -2792,6 +3425,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-fuchsia-200"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-fuchsia-200"
       }
     },
     "300": {
@@ -2805,6 +3441,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-fuchsia-300"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-fuchsia-300"
       }
     },
     "400": {
@@ -2818,6 +3457,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-fuchsia-400"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-fuchsia-400"
       }
     },
     "500": {
@@ -2831,6 +3473,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-fuchsia-500"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-fuchsia-500"
       }
     },
     "600": {
@@ -2844,6 +3489,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-fuchsia-600"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-fuchsia-600"
       }
     },
     "700": {
@@ -2857,6 +3505,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-fuchsia-700"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-fuchsia-700"
       }
     },
     "800": {
@@ -2870,6 +3521,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-fuchsia-800"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-fuchsia-800"
       }
     },
     "900": {
@@ -2883,6 +3537,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-fuchsia-900"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-fuchsia-900"
       }
     },
     "950": {
@@ -2896,6 +3553,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-fuchsia-950"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-fuchsia-950"
       }
     }
   },
@@ -2911,6 +3571,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-pink-50"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-pink-50"
       }
     },
     "100": {
@@ -2924,6 +3587,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-pink-100"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-pink-100"
       }
     },
     "200": {
@@ -2937,6 +3603,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-pink-200"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-pink-200"
       }
     },
     "300": {
@@ -2950,6 +3619,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-pink-300"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-pink-300"
       }
     },
     "400": {
@@ -2963,6 +3635,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-pink-400"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-pink-400"
       }
     },
     "500": {
@@ -2976,6 +3651,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-pink-500"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-pink-500"
       }
     },
     "600": {
@@ -2989,6 +3667,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-pink-600"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-pink-600"
       }
     },
     "700": {
@@ -3002,6 +3683,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-pink-700"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-pink-700"
       }
     },
     "800": {
@@ -3015,6 +3699,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-pink-800"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-pink-800"
       }
     },
     "900": {
@@ -3028,6 +3715,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-pink-900"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-pink-900"
       }
     },
     "950": {
@@ -3041,6 +3731,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-pink-950"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-pink-950"
       }
     }
   },
@@ -3056,6 +3749,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-rose-50"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-rose-50"
       }
     },
     "100": {
@@ -3069,6 +3765,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-rose-100"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-rose-100"
       }
     },
     "200": {
@@ -3082,6 +3781,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-rose-200"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-rose-200"
       }
     },
     "300": {
@@ -3095,6 +3797,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-rose-300"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-rose-300"
       }
     },
     "400": {
@@ -3108,6 +3813,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-rose-400"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-rose-400"
       }
     },
     "500": {
@@ -3121,6 +3829,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-rose-500"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-rose-500"
       }
     },
     "600": {
@@ -3134,6 +3845,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-rose-600"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-rose-600"
       }
     },
     "700": {
@@ -3147,6 +3861,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-rose-700"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-rose-700"
       }
     },
     "800": {
@@ -3160,6 +3877,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-rose-800"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-rose-800"
       }
     },
     "900": {
@@ -3173,6 +3893,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-rose-900"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-rose-900"
       }
     },
     "950": {
@@ -3186,6 +3909,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-rose-950"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-rose-950"
       }
     }
   },
@@ -3201,6 +3927,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-lightBlue-50"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-lightBlue-50"
       }
     },
     "100": {
@@ -3214,6 +3943,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-lightBlue-100"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-lightBlue-100"
       }
     },
     "200": {
@@ -3227,6 +3959,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-lightBlue-200"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-lightBlue-200"
       }
     },
     "300": {
@@ -3240,6 +3975,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-lightBlue-300"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-lightBlue-300"
       }
     },
     "400": {
@@ -3253,6 +3991,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-lightBlue-400"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-lightBlue-400"
       }
     },
     "500": {
@@ -3266,6 +4007,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-lightBlue-500"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-lightBlue-500"
       }
     },
     "600": {
@@ -3279,6 +4023,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-lightBlue-600"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-lightBlue-600"
       }
     },
     "700": {
@@ -3292,6 +4039,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-lightBlue-700"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-lightBlue-700"
       }
     },
     "800": {
@@ -3305,6 +4055,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-lightBlue-800"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-lightBlue-800"
       }
     },
     "900": {
@@ -3318,6 +4071,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-lightBlue-900"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-lightBlue-900"
       }
     },
     "950": {
@@ -3331,6 +4087,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-lightBlue-950"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-lightBlue-950"
       }
     }
   },
@@ -3346,6 +4105,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-warmGray-50"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-warmGray-50"
       }
     },
     "100": {
@@ -3359,6 +4121,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-warmGray-100"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-warmGray-100"
       }
     },
     "200": {
@@ -3372,6 +4137,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-warmGray-200"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-warmGray-200"
       }
     },
     "300": {
@@ -3385,6 +4153,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-warmGray-300"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-warmGray-300"
       }
     },
     "400": {
@@ -3398,6 +4169,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-warmGray-400"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-warmGray-400"
       }
     },
     "500": {
@@ -3411,6 +4185,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-warmGray-500"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-warmGray-500"
       }
     },
     "600": {
@@ -3424,6 +4201,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-warmGray-600"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-warmGray-600"
       }
     },
     "700": {
@@ -3437,6 +4217,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-warmGray-700"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-warmGray-700"
       }
     },
     "800": {
@@ -3450,6 +4233,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-warmGray-800"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-warmGray-800"
       }
     },
     "900": {
@@ -3463,6 +4249,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-warmGray-900"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-warmGray-900"
       }
     },
     "950": {
@@ -3476,6 +4265,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-warmGray-950"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-warmGray-950"
       }
     }
   },
@@ -3491,6 +4283,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-trueGray-50"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-trueGray-50"
       }
     },
     "100": {
@@ -3504,6 +4299,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-trueGray-100"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-trueGray-100"
       }
     },
     "200": {
@@ -3517,6 +4315,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-trueGray-200"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-trueGray-200"
       }
     },
     "300": {
@@ -3530,6 +4331,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-trueGray-300"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-trueGray-300"
       }
     },
     "400": {
@@ -3543,6 +4347,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-trueGray-400"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-trueGray-400"
       }
     },
     "500": {
@@ -3556,6 +4363,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-trueGray-500"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-trueGray-500"
       }
     },
     "600": {
@@ -3569,6 +4379,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-trueGray-600"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-trueGray-600"
       }
     },
     "700": {
@@ -3582,6 +4395,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-trueGray-700"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-trueGray-700"
       }
     },
     "800": {
@@ -3595,6 +4411,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-trueGray-800"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-trueGray-800"
       }
     },
     "900": {
@@ -3608,6 +4427,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-trueGray-900"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-trueGray-900"
       }
     },
     "950": {
@@ -3621,6 +4443,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-trueGray-950"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-trueGray-950"
       }
     }
   },
@@ -3636,6 +4461,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-coolGray-50"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-coolGray-50"
       }
     },
     "100": {
@@ -3649,6 +4477,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-coolGray-100"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-coolGray-100"
       }
     },
     "200": {
@@ -3662,6 +4493,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-coolGray-200"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-coolGray-200"
       }
     },
     "300": {
@@ -3675,6 +4509,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-coolGray-300"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-coolGray-300"
       }
     },
     "400": {
@@ -3688,6 +4525,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-coolGray-400"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-coolGray-400"
       }
     },
     "500": {
@@ -3701,6 +4541,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-coolGray-500"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-coolGray-500"
       }
     },
     "600": {
@@ -3714,6 +4557,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-coolGray-600"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-coolGray-600"
       }
     },
     "700": {
@@ -3727,6 +4573,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-coolGray-700"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-coolGray-700"
       }
     },
     "800": {
@@ -3740,6 +4589,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-coolGray-800"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-coolGray-800"
       }
     },
     "900": {
@@ -3753,6 +4605,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-coolGray-900"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-coolGray-900"
       }
     },
     "950": {
@@ -3766,6 +4621,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-coolGray-950"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-coolGray-950"
       }
     }
   },
@@ -3781,6 +4639,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-blueGray-50"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-blueGray-50"
       }
     },
     "100": {
@@ -3794,6 +4655,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-blueGray-100"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-blueGray-100"
       }
     },
     "200": {
@@ -3807,6 +4671,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-blueGray-200"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-blueGray-200"
       }
     },
     "300": {
@@ -3820,6 +4687,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-blueGray-300"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-blueGray-300"
       }
     },
     "400": {
@@ -3833,6 +4703,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-blueGray-400"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-blueGray-400"
       }
     },
     "500": {
@@ -3846,6 +4719,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-blueGray-500"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-blueGray-500"
       }
     },
     "600": {
@@ -3859,6 +4735,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-blueGray-600"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-blueGray-600"
       }
     },
     "700": {
@@ -3872,6 +4751,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-blueGray-700"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-blueGray-700"
       }
     },
     "800": {
@@ -3885,6 +4767,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-blueGray-800"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-blueGray-800"
       }
     },
     "900": {
@@ -3898,6 +4783,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-blueGray-900"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-blueGray-900"
       }
     },
     "950": {
@@ -3911,6 +4799,9 @@ export const COLORS = {
       },
       "_focus": {
         "borderColor": "focus:border-blueGray-950"
+      },
+      "_focusWithin": {
+        "borderColor": "focus-within:border-blueGray-950"
       }
     }
   }

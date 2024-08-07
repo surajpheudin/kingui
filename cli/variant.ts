@@ -44,6 +44,9 @@ function calc(curr: string) {
       _focus: {
         borderColor: `focus:border-${curr}-${c}`,
       },
+      _focusWithin: {
+        borderColor: `focus-within:border-${curr}-${c}`,
+      },
     };
     return a;
   }, {});
@@ -67,6 +70,9 @@ type VariantColor = {
       };
       _focus: {
         borderColor: `focus:border-${string}-${string}`;
+      };
+      _focusWithin: {
+        borderColor: `focus-within:border-${string}-${string}`;
       };
     };
   };
