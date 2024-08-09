@@ -4,3 +4,4 @@ export { Checkbox } from "./checkbox/index";
 export { Input } from "./input/index";
 export { Textarea } from "./textarea/index";
 export { Select } from "./select/index";
+export { Switch } from "./switch/index";
