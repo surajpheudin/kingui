@@ -5,7 +5,7 @@ import { COLORS } from "../../config/colors";
 import { tw } from "../../utils/tailwind";
 import { ColorPalette } from "../types";
 import { ChevronDownIcon } from "../../assets/svgs";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const Select = ({
   className,
@@ -26,6 +26,9 @@ const Select = ({
     setIsOpen((prev) => !prev);
   };
 
+  const onClose = () => {
+    setIsOpen(false);
+  };
   const handleClick = (item: ISelectOption) => {
     setSelected(item);
     setIsOpen(false);
@@ -44,6 +47,13 @@ const Select = ({
     getOptionSizeCss(size),
   );
   const boundingClient = ref.current?.getBoundingClientRect();
+
+  useEffect(() => {
+    window.addEventListener("scroll", onClose);
+    return () => {
+      window.removeEventListener("scroll", onClose);
+    };
+  }, []);
   return (
     <div ref={ref}>
       <div className={classes} onClick={onToggle}>
@@ -51,6 +61,7 @@ const Select = ({
           className="bg-transparent focus:outline-none"
           {...props}
           value={selected?.label ?? ""}
+          onChange={() => {}}
         />
         <ChevronDownIcon height="12px" width="12px" />
       </div>
@@ -75,7 +86,11 @@ const Select = ({
             Choose an option
           </p>
           {options?.map((item) => (
-            <p className={optionClasses} onClick={() => handleClick(item)}>
+            <p
+              key={item?.value}
+              className={optionClasses}
+              onClick={() => handleClick(item)}
+            >
               {item?.label}
             </p>
           ))}
