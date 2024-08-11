@@ -5,6 +5,8 @@ export default {
     extend: {
       borderWidth: {
         1: "1px",
+        5: "5px",
+        6: "6px",
       },
     },
   },
