@@ -8,26 +8,26 @@ const Switch = ({
   className,
   colorScheme,
   size,
-  isInvalid,
-  isChecked,
-  isDisabled,
+  invalid,
+  checked,
+  disabled,
   onChange,
   defaultChecked,
-  isReadonly,
-  isRequired,
+  readOnly,
+  required,
   ...props
 }: ISwitch) => {
   const [isCheckedLocal, setIsCheckedLocal] = useState(!!defaultChecked);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    if (isReadonly) return;
+    if (readOnly) return;
     setIsCheckedLocal(e.target.checked);
     onChange?.(e);
   };
 
   useEffect(() => {
-    if (isChecked !== undefined) setIsCheckedLocal(isChecked);
-  }, [isChecked]);
+    if (checked !== undefined) setIsCheckedLocal(checked);
+  }, [checked]);
 
   return (
     <label>
@@ -36,14 +36,14 @@ const Switch = ({
         {...props}
         onChange={handleChange}
         hidden
-        disabled={isDisabled}
-        {...(isInvalid && {
+        disabled={disabled}
+        {...(invalid && {
           "aria-invalid": "true",
         })}
-        {...(isReadonly && {
+        {...(readOnly && {
           readOnly: true,
         })}
-        {...(isRequired && {
+        {...(required && {
           required: true,
         })}
       />
@@ -51,7 +51,7 @@ const Switch = ({
         className={twMerge(
           `duration-300, cursor-pointer rounded-3xl p-[2px]`,
           isCheckedLocal ? getColorSchemeCss(colorScheme) : "bg-gray-300",
-          isDisabled ? "cursor-not-allowed opacity-70" : "",
+          disabled ? "cursor-not-allowed opacity-70" : "",
           className,
         )}
       >

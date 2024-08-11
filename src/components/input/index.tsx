@@ -10,7 +10,7 @@ const Input = ({
   colorScheme,
   variant,
   size,
-  isInvalid,
+  invalid,
   focusBorderColor,
   errorBorderColor,
   ...props
@@ -18,7 +18,7 @@ const Input = ({
   const classes = twMerge(
     tw`rounded-md border-gray-300 focus:border-2 focus:outline-none`,
     getFocusBorderColor(focusBorderColor),
-    isInvalid ? getInvalidCss(errorBorderColor) : "",
+    invalid ? getInvalidCss(errorBorderColor) : "",
     getSizeCss(size),
     getVariantCss(colorScheme, variant),
     className,

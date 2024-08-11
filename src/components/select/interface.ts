@@ -10,7 +10,7 @@ export interface ISelect
   extends IBaseComponent,
     Omit<ComponentProps<"input">, "size"> {
   variant?: "outline" | "filled" | "flushed";
-  isInvalid?: boolean;
+  invalid?: boolean;
   focusBorderColor?: ColorPalette;
   errorBorderColor?: ColorPalette;
   options?: ISelectOption[];

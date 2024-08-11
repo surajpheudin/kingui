@@ -10,10 +10,10 @@ export interface ISwitch
   extends IBaseComponent,
     Omit<ComponentProps<"input">, "size"> {
   defaultChecked?: boolean;
-  isInvalid?: boolean;
-  isChecked?: boolean;
-  isDisabled?: boolean;
-  isRequired?: boolean;
-  isReadonly?: boolean;
+  invalid?: boolean;
+  checked?: boolean;
+  disabled?: boolean;
+  required?: boolean;
+  readOnly?: boolean;
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
 }

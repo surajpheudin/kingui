@@ -12,7 +12,7 @@ const Select = ({
   colorScheme,
   variant,
   size,
-  isInvalid,
+  invalid,
   focusBorderColor,
   errorBorderColor,
   options,
@@ -37,7 +37,7 @@ const Select = ({
   const classes = twMerge(
     tw`flex items-center gap-2 rounded-md border-gray-300 focus-within:border-2`,
     getFocusBorderColor(focusBorderColor),
-    isInvalid ? getInvalidCss(errorBorderColor) : "",
+    invalid ? getInvalidCss(errorBorderColor) : "",
     getSizeCss(size),
     getVariantCss(colorScheme, variant),
     className,
