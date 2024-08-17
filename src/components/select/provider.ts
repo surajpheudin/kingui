@@ -21,7 +21,7 @@ export const defaultValues: ISelectContext["state"] = {
 };
 
 export const SelectContext = createContext<ISelectContext>({
-  state: {} as ISelectStateValue,
+  state: defaultValues,
   setState: () => {},
   onClose: () => {},
 });

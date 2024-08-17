@@ -3,27 +3,44 @@ import { IRadio } from "./interface";
 import { ICheckbox } from "../../checkbox/interface";
 import { COLORS } from "../../../config/colors";
 import { tw } from "../../../utils/tailwind";
+import { useRadioGroup } from "../provider";
 
 const Radio = ({
   className,
   children,
   colorScheme,
+  value,
   size,
-  checked,
   ...props
 }: IRadio) => {
+  const {
+    state: { size: groupSize, selected, colorScheme: groupColorScheme },
+    handleClick,
+  } = useRadioGroup();
+
+  const localSize = size || groupSize;
+  const localColorScheme = colorScheme || groupColorScheme;
+  const checked = selected === value;
   const classes = twMerge(
     "h-[1rem] w-[1rem] rounded-full border-2 border-gray-200",
     checked ? "border-blue-500" : "",
-    getSizeCss(size, checked).radio,
-    getColorSchemeCss(colorScheme, checked),
+    getSizeCss(localSize, checked).radio,
+    getColorSchemeCss(localColorScheme, checked),
     className,
   );
+
   return (
     <label className="flex cursor-pointer items-center gap-2" tabIndex={0}>
-      <input type="radio" {...props} hidden />
+      <input
+        type="radio"
+        {...props}
+        hidden
+        onClick={() => {
+          handleClick(value);
+        }}
+      />
       <span className={classes} />
-      <span className={getSizeCss(size).label}>{children}</span>
+      <span className={getSizeCss(localSize).label}>{children}</span>
     </label>
   );
 };

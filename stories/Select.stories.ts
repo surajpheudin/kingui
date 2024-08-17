@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from "@storybook/react";
 import { fn } from "@storybook/test";
-import SelectExample from "../src/examples/select";
+import SelectExample from "../src/examples/Select";
 
 const meta = {
   title: "Forms/Select",
