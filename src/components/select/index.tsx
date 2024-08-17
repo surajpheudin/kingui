@@ -1,11 +1,13 @@
 import { twMerge } from "tailwind-merge";
-import { ISelect, ISelectOption } from "./interface";
+import { ISelect } from "./interface";
 import { DefaultColors } from "tailwindcss/types/generated/colors";
 import { COLORS } from "../../config/colors";
 import { tw } from "../../utils/tailwind";
 import { ColorPalette } from "../types";
 import { ChevronDownIcon } from "../../assets/svgs";
-import { useEffect, useRef, useState } from "react";
+import { Children, useEffect, useRef, useState } from "react";
+import SelectOption, { getOptionSizeCss } from "./option";
+import { defaultValues, SelectContext } from "./provider";
 
 const Select = ({
   className,
@@ -15,25 +17,14 @@ const Select = ({
   invalid,
   focusBorderColor,
   errorBorderColor,
-  options,
+  children,
   ...props
 }: ISelect) => {
   const ref = useRef<HTMLDivElement>(null);
   const [isOpen, setIsOpen] = useState(false);
-  const [selected, setSelected] = useState<ISelectOption | null>(null);
+  const [state, setState] = useState(defaultValues);
 
-  const onToggle = () => {
-    setIsOpen((prev) => !prev);
-  };
-
-  const onClose = () => {
-    setIsOpen(false);
-  };
-  const handleClick = (item: ISelectOption) => {
-    setSelected(item);
-    setIsOpen(false);
-  };
-
+  // Variables
   const classes = twMerge(
     tw`flex items-center gap-2 rounded-md border-gray-300 focus-within:border-2`,
     getFocusBorderColor(focusBorderColor),
@@ -48,19 +39,41 @@ const Select = ({
   );
   const boundingClient = ref.current?.getBoundingClientRect();
 
+  // Handlers
+  const onToggle = () => {
+    setIsOpen((prev) => !prev);
+  };
+
+  const onClose = () => {
+    setIsOpen(false);
+  };
+
+  const handleClick = () => {
+    setState((prev) => ({
+      ...prev,
+      selectedValue: {
+        label: "",
+        value: "",
+      },
+    }));
+    setIsOpen(false);
+  };
+
+  // Effects
   useEffect(() => {
     window.addEventListener("scroll", onClose);
     return () => {
       window.removeEventListener("scroll", onClose);
     };
   }, []);
+
   return (
     <div ref={ref}>
       <div className={classes} onClick={onToggle}>
         <input
           className="bg-transparent focus:outline-none"
           {...props}
-          value={selected?.label ?? ""}
+          value={state.selected?.label ?? ""}
           onChange={() => {}}
         />
         <ChevronDownIcon height="12px" width="12px" />
@@ -76,29 +89,23 @@ const Select = ({
         >
           <p
             className={twMerge(optionClasses, "text-gray-500")}
-            onClick={() =>
-              handleClick({
-                label: "",
-                value: "",
-              })
-            }
+            onClick={handleClick}
           >
             Choose an option
           </p>
-          {options?.map((item) => (
-            <p
-              key={item?.value}
-              className={optionClasses}
-              onClick={() => handleClick(item)}
-            >
-              {item?.label}
-            </p>
+          {Children.map(children, (child) => (
+            <SelectContext.Provider value={{ state, setState, onClose }}>
+              {child}
+            </SelectContext.Provider>
           ))}
         </div>
       )}
     </div>
   );
 };
+
+Select.Root = Select;
+Select.Option = SelectOption;
 
 export { Select };
 
@@ -120,23 +127,6 @@ function getSizeCss(size: ISelect["size"] = "md") {
   }
 }
 
-function getOptionSizeCss(size: ISelect["size"] = "md") {
-  switch (size) {
-    case "sm":
-      return tw`text-sm`;
-
-    case "md":
-      return tw`text-md`;
-
-    case "lg":
-      return tw`text-lg`;
-
-    default: {
-      const _exhaustiveCheck: never = size;
-      return _exhaustiveCheck;
-    }
-  }
-}
 function getVariantCss(
   colorScheme: keyof DefaultColors = "gray",
   variant: ISelect["variant"] = "outline",

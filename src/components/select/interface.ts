@@ -13,5 +13,4 @@ export interface ISelect
   invalid?: boolean;
   focusBorderColor?: ColorPalette;
   errorBorderColor?: ColorPalette;
-  options?: ISelectOption[];
 }
