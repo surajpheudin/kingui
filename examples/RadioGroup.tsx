@@ -1,5 +1,5 @@
-import { Radio, RadioGroup } from "../components";
-import { IRadioGroup } from "../components/radioGroup/interface";
+import { Radio, RadioGroup } from "../src/components";
+import { IRadioGroup } from "../src/components/radioGroup/interface";
 
 const RadioGroupExample = (props: IRadioGroup) => {
   return (
@@ -11,4 +11,4 @@ const RadioGroupExample = (props: IRadioGroup) => {
   );
 };
 
-export default RadioGroupExample;
+export { RadioGroupExample };

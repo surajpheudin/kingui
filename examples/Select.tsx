@@ -1,5 +1,5 @@
-import { Select } from "../components";
-import { ISelect } from "../components/select/interface";
+import { Select } from "../src/components";
+import { ISelect } from "../src/components/select/interface";
 
 const SelectExample = (props: ISelect) => {
   return (
@@ -11,4 +11,4 @@ const SelectExample = (props: ISelect) => {
   );
 };
 
-export default SelectExample;
+export { SelectExample };

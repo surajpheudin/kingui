@@ -8,6 +8,10 @@ export default {
         5: "5px",
         6: "6px",
       },
+      colors: {
+        focus: "var(--focus-color)",
+        error: "var(--error-color)",
+      },
     },
   },
   plugins: [],

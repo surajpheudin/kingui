@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    --focus-color: #3b82f6;
+    --error-color: #ef4444;
+  }
+}
