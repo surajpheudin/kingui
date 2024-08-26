@@ -7,3 +7,4 @@ export { Select } from "./select/index";
 export { Switch } from "./switch/index";
 export { RadioGroup } from "./radioGroup/index";
 export { Radio } from "./radioGroup/radio/index";
+export { Alert, AlertIndicator } from "./alert/index";
