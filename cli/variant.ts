@@ -38,6 +38,7 @@ function calc(curr: string) {
       borderColor: `border-${curr}-${c}`,
       borderTopColor: `border-t-${curr}-${c}`,
       borderLeftColor: `border-l-${curr}-${c}`,
+      viaColor: `via-${curr}-${c}`,
       _hover: {
         text: `hover:text-${curr}-${c}`,
         bgColor: `hover:bg-${curr}-${c}`,
@@ -67,6 +68,7 @@ type VariantColor = {
       borderColor: `border-${string}-${string}`;
       borderTopColor: `border-t-${string}-${string}`;
       borderLeftColor: `border-l-${string}-${string}`;
+      viaColor: `via-${string}-${string}`;
       _hover: {
         text: `text-${string}-${string}`;
         bgColor: `bg-${string}-${string}`;

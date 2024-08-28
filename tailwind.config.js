@@ -12,6 +12,15 @@ export default {
         focus: "var(--focus-color)",
         error: "var(--error-color)",
       },
+      animation: {
+        running: "runningKeyFrame 1s ease-in-out infinite",
+      },
+      keyframes: {
+        runningKeyFrame: {
+          "0%": { left: "-100%" },
+          "100%": { left: "100%" },
+        },
+      },
     },
   },
   plugins: [],

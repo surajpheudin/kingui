@@ -8,6 +8,6 @@ export type ColorScheme = Exclude<
 >;
 export type ColorPalette = NestedKeyOf<DefaultColors>;
 export interface IBaseComponent {
-  colorScheme?: keyof DefaultColors;
+  colorScheme?: ColorScheme;
   size?: ComponentSize;
 }

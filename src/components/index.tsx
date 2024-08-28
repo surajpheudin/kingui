@@ -11,3 +11,4 @@ export { Alert, AlertIndicator } from "./alert";
 export { Spinner } from "./spinner";
 export { useToast } from "./toast";
 export { CloseIcon } from "./icons";
+export { Progress } from "./progress";
