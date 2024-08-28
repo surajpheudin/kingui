@@ -8,7 +8,10 @@ import { AlertTitle } from "./alertTitle";
 import { AlertDescription } from "./alertDescription";
 
 const Alert = ({ children, status = "info", variant = "subtle" }: IAlert) => {
-  const classes = twMerge(tw`flex px-4 py-3`, bgColorSubtle[status]?.[variant]);
+  const classes = twMerge(
+    tw`flex py-3 pl-4 pr-8`,
+    bgColorSubtle[status]?.[variant],
+  );
   return (
     <div className={classes}>
       {Children.map(children, (child) => (
