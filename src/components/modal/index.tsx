@@ -1,7 +1,7 @@
 import { Children, useEffect } from "react";
 import { IModal } from "./interface";
 import { ModalBackdrop } from "./modalBackdrop";
-import { DrawerContext } from "./provider";
+import { ModalContext } from "./provider";
 import { ModalContent } from "./modalContent";
 import { ModalHeader } from "./modalHeader";
 import { ModalBody } from "./modalBody";
@@ -18,7 +18,7 @@ const Modal = ({
     document.body.style.overflow = isOpen ? "hidden" : "auto";
   }, [isOpen]);
   return (
-    <DrawerContext.Provider
+    <ModalContext.Provider
       value={{
         isOpen,
         onClose,
@@ -33,7 +33,7 @@ const Modal = ({
           return <></>;
         }
       })}
-    </DrawerContext.Provider>
+    </ModalContext.Provider>
   );
 };
 

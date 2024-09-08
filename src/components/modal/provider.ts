@@ -15,8 +15,8 @@ export const defaultValues: IModalContext = {
   size: "md",
 };
 
-export const DrawerContext = createContext<IModalContext>(defaultValues);
+export const ModalContext = createContext<IModalContext>(defaultValues);
 
 export const useModal = () => {
-  return useContext(DrawerContext);
+  return useContext(ModalContext);
 };
